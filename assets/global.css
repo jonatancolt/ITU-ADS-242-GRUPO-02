@@ -45,7 +45,7 @@ body {
     font-size: 40px;
     width: 200px;
     height: 200px;
-    background-color: #d9d9d9;
+    background-color: rgb(202, 198, 198);
     cursor: pointer;
     position: fixed;
     z-index: 999;
