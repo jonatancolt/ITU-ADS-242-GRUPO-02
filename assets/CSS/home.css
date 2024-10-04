@@ -1,0 +1,131 @@
+body{
+    background-image: url('../images/montanha.jpg'); /*imagem de fundo*/
+    background-size: cover; /*imagem de fundo cobre a pagina*/
+    background-repeat: repeat-y; /*imagem de fundo repete na vertical */
+   
+}
+
+
+
+.titulo {
+    text-align: center; /*alinhando o texto ao centro*/
+    color: #7b7b7b; /*define a cor do titulo*/
+    font-size: 40px;/*define o tamanho da fonte */
+    margin-top: 50px; /*define uma margem referente ao topo da página*/
+}
+
+.subtitulo{
+    text-align: center; /*alinhando o texto ao centro*/
+    color: black; /*define a cor do texto*/
+    font-size: 30px; /*define o tamanho da fonte */
+    font-weight: bold; /*deixa o texto em Negrito*/
+    font-family: sans-serif; /*atrubui uma nova fonte ao texto*/
+    margin-top: -40px; /*define uma margem referente ao topo da página*/
+}
+
+
+.citacao{
+    text-align: center; /*alinhando o texto ao centro*/
+    color: white; /*define a cor do texto*/
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+.sentindo{
+    text-align: center; /*alinhando o texto ao centro*/
+    color: white; /*define a cor do texto*/
+    font-size: 35px; /*define o tamanho da fonte */
+    margin-top: 40px; /*define uma margem referente ao topo da página*/
+}
+
+.botoes{
+    text-align: center; /*alina a classe botoes no centro da pagina*/
+    align-items: center; /* ????? */
+    margin-top: 120px; /*define uma margem referente ao topo da página*/
+}
+
+/*#btn_geral{
+    justify-content: space-between;
+    margin: 0 10px;
+    padding: 10px 20px;
+}*/
+
+
+.btn_tristeza{ /*Todas as classes btn_... abaixo estão fazendo o espaçamento entre os botoes */
+    margin: 30px;
+
+}
+
+.btn_medo{
+    margin: 30px;
+}
+
+.btn_raiva{
+    margin: 10px;
+}
+
+.btn_raiva{
+    margin: 10px;
+}
+
+
+.btn_ansiedade{
+    margin: 10px;
+}
+
+.imagens{ /*Para que os espaços das imagens fiquem alinhados na horizontal */
+   display: flex;
+}
+
+
+.img_um{
+    background-color: lightgray; /*Cor da caixa da imagem*/
+    height: 200px; /*altura*/
+    width: 100px; /*largura*/
+   margin-left: 430px  ; /*margem referente a lateral esquerda da tela*/
+   margin-top: 5px; /*margem referente aos botões*/
+   border-radius: 10px; /*Para arredondar a borda do texto*/
+   opacity: 0.5; /*deixa a caixa mais transparente*/
+}
+
+/*Os mesmos atributos se repetem até a classe img_quatro*/ 
+
+.img_dois{ 
+    background-color: lightgray;
+    height: 200px;
+    width: 100px;
+   margin-left: 450px;
+   margin: 20px;
+   margin-top: 5px;
+   border-radius: 10px;
+   opacity: 0.5;
+}
+
+.img_tres{
+    background-color: lightgray;
+    height: 200px;
+    width: 100px;
+   margin-left: 450px;
+   margin: 5px;
+   margin-top: 5px;
+   border-radius: 10px;
+   opacity: 0.5;
+}
+
+
+.img_quatro{
+    background-color: lightgray;
+    height: 200px;
+    width: 100px;
+   margin-left: 450px;
+   margin: 15px;
+   margin-top: 5px;
+   border-radius: 10px;
+   opacity: 0.5;
+}
+
+
+
+
+
