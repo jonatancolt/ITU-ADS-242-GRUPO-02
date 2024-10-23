@@ -11,8 +11,9 @@ body {
     margin-left: 500px;
     margin-right: 500px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(238, 22, 22, 0.6);
     padding: 20px;
+    width: 100;
 }
 #username, #email, #password{
     background: rgba(255, 255, 255, 0.2);

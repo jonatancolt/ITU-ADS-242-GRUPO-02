@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./assets/images/montanha.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Altura da tela */
+
+}
+
+.mais_um_fundo{
+    background-image: url(../images/montanha.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+#fundo{
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 90%;
+    margin: auto;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.titulo{
+    text-align: center; /*alinhando o texto ao centro*/
+    color: #a1a1a1; /*define a cor do titulo*/
+    font-size: 40px;/*define o tamanho da fonte */
+    position: relative;
+    top: -100px;
+}
+
+.subtitulo{
+    text-align: center; /*alinhando o texto ao centro*/
+    color: black; /*define a cor do texto*/
+    font-size: 30px; /*define o tamanho da fonte */
+    font-weight: bold; /*deixa o texto em Negrito*/
+    font-family: sans-serif; /*atrubui uma nova fonte ao texto*/
+    position: relative;
+    top: -100px;
+}
+
+
+.citacao{
+    text-align: center; /*alinhando o texto ao centro*/
+    color: white; /*define a cor do texto*/
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+}
+
+.sentindo{
+    text-align: center; /*alinhando o texto ao centro*/
+    color: white; /*define a cor do texto*/
+    font-size: 35px; /*define o tamanho da fonte */
+    position: relative;
+    top: -100px;
+
+}
+
+#coluna{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.img_sentimento{
+    flex-direction:column ;
+    position: relative;
+    left: 250px;
+    bottom: -100px;
+}
+
+.img_sentimento:hover{
+    flex-direction:column ;
+    position: relative;
+    left: 250px;
+    bottom: -100px;
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.subtitulo_sentimentos{
+    color: white;
+    text-align: center;
+}
+
+.subtitulo_sentimentos:hover{
+    color: gray;
+    text-align: center;
+}
+
+
+
+.img{
+    width: 150px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#fundo2{
+    background-image: url(../images/WhatsApp\ Image\ 2024-10-01\ at\ 16.11.18.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.fundo3{
+    background-color:rgba(133, 132, 132, 0.2);
+    width: 90%;
+    margin: auto;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+

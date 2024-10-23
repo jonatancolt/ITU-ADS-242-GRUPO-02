@@ -3,50 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/global.css">
-
-    <script>
-        // Função JavaScript para redirecionar para a página correspondente na pasta correta
-        function goToPage(emotion) {
-            if (emotion === 'tristeza') {
-                window.location.href = './assets/pagesHome/tristeza.html';
-            } else if (emotion === 'medo') {
-                window.location.href = './assets/pagesHome/medo.html';
-            } else if (emotion === 'raiva') {
-                window.location.href = './assets/pagesHome/raiva.html';
-            }
-        }
-    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
-
     <section class="container">
+        <div class="mais_um_fundo">
         <div id="fundo">
-            <h1 class="títuloDoH1">
-                O que você está<br> sentindo?
-            </h1>
+            <div id="inicio">
+                <h1 class="titulo">Change Your Mind</h1>
 
-            <img class="backImg" src="./assets/images/psi.png" alt="Descrição da imagem">
-            
+                <p class="subtitulo">Mude sua Vida !!</p>
 
-            <div class="botoes">
+                <p class="citacao"> 
+                    "As emoções são contagiosas. Todos sabemos disso por experiência.<br> 
+                    Depois de um bom café com um amigo, você se sente bem." Daniel Goleman
+                </p>
 
-                
-                <!-- Chamando a função JavaScript para redirecionar -->
-                <button class="btn1Tristeza" onclick="goToPage('tristeza')">Tristeza</button>
-                <button class="btn2Medo" onclick="goToPage('medo')">Medo</button>
-                <button class="btn3Raiva" onclick="goToPage('raiva')">Raiva</button>
+                <h2 class="sentindo"> O que Você está sentindo ?</h2>
             </div>
+            <div id="coluna">
+                <div class="img_sentimento">
+                    <h2 class="subtitulo_sentimentos" onclick="goToPage('tristeza')">TRISTEZA</h2>
 
-            <div class="globalDiv">
-                <!-- Conteúdo adicional pode ser adicionado aqui -->
+                    <a href="#">
+                        <img src="https://thaisquaranta.com.br/wp-content/uploads/2018/09/raiva-960x667.jpg" class="img" onclick="goToPage('tristeza')">
+                   </a> 
+                </div>
+
+                <div class="img_sentimento">
+                    <h2 class="subtitulo_sentimentos" onclick="goToPage('raiva')">RAIVA</h2>
+
+                    <a href="#">
+                        <img src="https://thaisquaranta.com.br/wp-content/uploads/2018/09/raiva-960x667.jpg" class="img" onclick="goToPage('raiva')">
+                   </a> 
+                </div>
+              
+                <div class="img_sentimento">
+                    <h2 class="subtitulo_sentimentos" onclick="goToPage('medo')">MEDO</h2>
+
+                    <a href="#" >
+                        <img src="https://thaisquaranta.com.br/wp-content/uploads/2018/09/raiva-960x667.jpg" class="img" onclick="goToPage('medo')">
+                    </a> 
+                </div>
+              
+                <div class="img_sentimento">
+                    <h2 class="subtitulo_sentimentos" onclick="goToPage('raiva')">ANSIEDADE</h2>
+                   <a href="#">
+                        <img src="https://thaisquaranta.com.br/wp-content/uploads/2018/09/raiva-960x667.jpg" class="img" onclick="goToPage('raiva')">
+                   </a> 
+                </div>
             </div>
         </div>
+        
+    </div>
+
+    
     </section>
 
+        <div id="fundo2">
+            <div class="fundo3">
+                <h1 id="w">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consequatur fuga quia necessitatibus perspiciatis sint velit alias adipisci laborum natus odit officia, porro quo libero, sed optio qui nulla. Consectetur?</h1>
+            </div>
+        </div>
+
+    <script src="assets/JS/rotasDePaginas.js"></script>
 </body>
 </html>
