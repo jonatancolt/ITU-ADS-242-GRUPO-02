@@ -1,0 +1,194 @@
+body {
+    /*cor de fundo da pággina*/
+    background-image: linear-gradient(Black, Gray);
+}
+
+/*estiliza o titulo MEDO*/
+.sentimento {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+/*estiliza a perguta o que é ?*/
+.pergunta {
+    color: aliceblue;
+    margin-left: 100px;
+}
+
+
+/*alinha os itens da classe abaixo(div principal)*/
+.container {
+    margin-right: 600px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+/*estiliza a principal div do site*/
+.medo {
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+}
+
+/*estiliza a imagem ilustrativa de medo */
+.img_medo {
+    margin-top: 100px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+/*estiliza o texto de medo */
+.texto_medo {
+    color: azure;
+    margin-left: 10px;
+    margin-right: 400px;
+    text-align: justify;
+}
+
+/*estiliza a imagem da moça ajoelhada */
+.img_causa {
+    margin-top: 100px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+/*estilizao texto da causa*/
+.texto_causa {
+    color: azure;
+    margin-left: 400px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+/*estiliza o texto da causa  */
+.t_causa {
+    color: aliceblue;
+    margin-left: 600px;
+}
+
+/*estiliza o do titulo sintomas*/
+.sintomas {
+    color: aliceblue;
+    margin-left: 600px;
+}
+
+/*estiliza o texto sintomas */
+.texto_sintomas {
+    color: azure;
+    margin-left: 400px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+
+
+/*estiliza o titulo o que fazer */
+.solucao {
+    color: aliceblue;
+    margin-left: 600px;
+}
+
+
+/*estiliza o texto o que fazer */
+.texto_solucao {
+    color: rgb(245, 245, 245);
+    margin-left: 400px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+
+/*estiliza a imagem de interrogação */
+.img_solucao {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/*alinha as divs dos relatos  */
+.container_dois{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*logo abaixo estão os relatos seus textos e imagens próvisórios"*/
+
+.t_relatos {
+    color: aliceblue;
+    text-align: center;
+}
+
+.relato_um {
+    
+    align-items: left;
+    background-color: grey;
+    width: 250px;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+
+.img_Pum{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.relato_dois {
+    
+    background-color: grey;
+    width: 190px;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+
+.img_Pdois{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.relato_tres{
+    align-items: right;
+    background-color: grey;
+    width: 200px;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+
+.img_Ptres{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+
+
+.palestra{
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+       
+}
