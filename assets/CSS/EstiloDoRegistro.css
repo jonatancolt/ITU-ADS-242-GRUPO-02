@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('../images/back.jpeg');
+    
+    background-image: url('../images/brain2.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -11,12 +13,10 @@ body {
     margin-left: 500px;
     margin-right: 500px;
     border-radius: 20px;
-    background-color: rgba(238, 22, 22, 0.6);
-    padding: 20px;
-    width: 100;
-}
+    
+    background-color: rgba(5, 5, 5, 0.6);}
 #username, #email, #password{
-    background: rgba(255, 255, 255, 0.2);
+
     height: 40px;
     line-height: 40px;
     border-radius: 20px;

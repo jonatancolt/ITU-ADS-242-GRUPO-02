@@ -7,6 +7,8 @@ body{
     background-image: url(./assets/images/montanha.jpg);
     background-repeat:no-repeat;
     background-size: cover;
+    object-fit: cover;
+
 }
 
 .container{
@@ -21,7 +23,7 @@ body{
     background-image: url(../images/montanha.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    width: 100%;
+
     
 }
 
@@ -83,15 +85,18 @@ body{
 .img_sentimento{
     flex-direction:column ;
     position: relative;
-    left: 250px;
-    bottom: -100px;
+    margin-top: 100px;
+    opacity: 0.5;
+    /* left: 250px;
+    bottom: -100px; */
 }
 
 .img_sentimento:hover{
     flex-direction:column ;
     position: relative;
-    left: 250px;
-    bottom: -100px;
+    opacity: 1;
+    /* left: 250px;
+    bottom: -100px; */
     cursor: pointer;
     transform: scale(1.05);
     
@@ -110,9 +115,13 @@ body{
 
 
 .img{
-    width: 150px;
-    height: 400px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
+    background-size: cover;
+    object-fit: cover;
+    align-items: center;
+    
 }
 
 #fundo2{
