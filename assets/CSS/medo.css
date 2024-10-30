@@ -1,10 +1,38 @@
-body {
-    /*cor de fundo da pággina*/
-    background-image: linear-gradient(Black, Gray);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+body {
+    /*cor de fundo da pággina*/
+    background-image: linear-gradient(#9932CC, #800080);
+}
+
+
+/*alinha os itens da classe abaixo(div principal)*/
+.container {
+    margin-right: 600px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+/*estiliza a principal div do site*/
+.medo {
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+
 /*estiliza o titulo MEDO*/
-.sentimento {
+.t_medo {
     color: aliceblue;
     text-align: center;
 }
@@ -17,26 +45,11 @@ body {
 }
 
 
-/*alinha os itens da classe abaixo(div principal)*/
-.container {
-    margin-right: 600px;
-    margin-left: 200px;
-    align-items: center;
-}
-
-/*estiliza a principal div do site*/
-.medo {
-    background-color: rgb(81, 81, 81);
-    width: 900px;
-    height: auto;
-    border-radius: 40px;
-}
-
 /*estiliza a imagem ilustrativa de medo */
 .img_medo {
-    margin-top: 100px;
+    margin-top: 50px;
     float: right;
-    margin-right: 10px;
+    margin-right: 30px;
     border-radius: 10px;
     width: 350px;
 }
@@ -49,31 +62,58 @@ body {
     text-align: justify;
 }
 
+
+.causa{
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
+}
+
 /*estiliza a imagem da moça ajoelhada */
 .img_causa {
-    margin-top: 100px;
+    margin-top: 5px;
     float: left;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    width: 350px;
+    width: 200px;
+    height: 250px;
 }
+
+
+/*estiliza o titulo da causa  */
+.t_causa {
+    color: aliceblue;
+    text-align: center;
+}
+
 /*estilizao texto da causa*/
 .texto_causa {
     color: azure;
-    margin-left: 400px;
+    margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
 }
 
-/*estiliza o texto da causa  */
-.t_causa {
-    color: aliceblue;
-    margin-left: 600px;
+
+.sintomas{
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
 }
 
 /*estiliza o do titulo sintomas*/
-.sintomas {
+.t_sintomas {
     color: aliceblue;
     margin-left: 600px;
 }
@@ -89,14 +129,14 @@ body {
 
 
 /*estiliza o titulo o que fazer */
-.solucao {
+.como_lidar {
     color: aliceblue;
     margin-left: 600px;
 }
 
 
 /*estiliza o texto o que fazer */
-.texto_solucao {
+.texto_cLidar {
     color: rgb(245, 245, 245);
     margin-left: 400px;
     margin-right: 20px;
@@ -105,31 +145,39 @@ body {
 
 
 /*estiliza a imagem de interrogação */
-.img_solucao {
+.img_cLidar {
     float: left;
-    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 10px;
     width: 250px;
 }
 
 /*alinha as divs dos relatos  */
-.container_dois{
+.container_dois {
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
     display: flex;
     justify-content: space-between;
 }
 
-/*logo abaixo estão os relatos seus textos e imagens próvisórios"*/
-
-.t_relatos {
+.relatos {
     color: aliceblue;
-    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
 }
+
 
 .relato_um {
     
     align-items: left;
     background-color: grey;
-    width: 250px;
+    width: auto;
     height: auto;
     padding: 50px;
     margin: 20px;
@@ -148,7 +196,7 @@ body {
 .relato_dois {
     
     background-color: grey;
-    width: 190px;
+    width: auto;
     height: auto;
     padding: 50px;
     margin: 20px;
@@ -167,7 +215,7 @@ body {
 .relato_tres{
     align-items: right;
     background-color: grey;
-    width: 200px;
+    width: auto;
     height: auto;
     padding: 50px;
     margin: 20px;
@@ -186,9 +234,80 @@ body {
 
 
 .palestra{
+    margin-top: 30px;
+    opacity: 80%;
     background-color: rgb(81, 81, 81);
     width: 900px;
     height: auto;
     border-radius: 40px;
-       
+    align-items: center;
+    margin-left: 150px;
+    color: aliceblue;
+}
+
+
+
+.divDaPalestra{
+    display: flex;
+}
+
+.t_palestra{
+    text-align: center;
+    color: aliceblue;
+}
+
+.texto_palestra{
+    margin-top: 70px;
+}
+
+.video{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.livros{
+    display: flex;
+}
+
+.img_livros{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.texto_livro{
+    margin-top: 100px;
+    float:center;
+}
+
+.fundo_curiosidade{
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#img_curiosidade1{
+    height: 200px;
+    width: 200px;
+    border-radius: 4%;
+    margin-bottom: 10px;
+}
+
+
+.curiosidade_dois{
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 10px;
+    display: flex;
+    border-box;
 }
