@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /*cor de fundo da pággina*/
+    background-image: linear-gradient(#9932CC, #800080);
+}
+
+
+/*alinha os itens da classe abaixo(div principal)*/
+.container {
+    margin-right: 600px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+/*estiliza a principal div do site*/
+.medo {
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+
+
+/*estiliza o titulo MEDO*/
+.t_medo {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+/*estiliza a perguta o que é ?*/
+.pergunta {
+    color: aliceblue;
+    margin-left: 100px;
+}
+
+
+/*estiliza a imagem ilustrativa de medo */
+.img_medo {
+    margin-top: 50px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+/*estiliza o texto de medo */
+.texto_medo {
+    color: azure;
+    margin-left: 10px;
+    margin-right: 400px;
+    text-align: justify;
+}
+
+
+.causa{
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+/*estiliza a imagem da moça ajoelhada */
+.img_causa {
+    margin-top: 5px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+}
+
+
+/*estiliza o titulo da causa  */
+.t_causa {
+    color: aliceblue;
+    text-align: center;
+}
+
+/*estilizao texto da causa*/
+.texto_causa {
+    color: azure;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+
+.sintomas{
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
+}
+
+/*estiliza o do titulo sintomas*/
+.t_sintomas {
+    color: aliceblue;
+    margin-left: 600px;
+}
+
+/*estiliza o texto sintomas */
+.texto_sintomas {
+    color: azure;
+    margin-left: 400px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+
+
+/*estiliza o titulo o que fazer */
+.como_lidar {
+    color: aliceblue;
+    margin-left: 600px;
+}
+
+
+/*estiliza o texto o que fazer */
+.texto_cLidar {
+    color: rgb(245, 245, 245);
+    margin-left: 400px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+
+/*estiliza a imagem de interrogação */
+.img_cLidar {
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/*alinha as divs dos relatos  */
+.container_dois {
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.relatos {
+    color: aliceblue;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+
+.relato_um {
+    
+    align-items: left;
+    background-color: grey;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+
+.img_Pum{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.relato_dois {
+    
+    background-color: grey;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+
+.img_Pdois{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.relato_tres{
+    align-items: right;
+    background-color: grey;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+
+.img_Ptres{
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+
+
+.palestra{
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 150px;
+    color: aliceblue;
+}
+
+
+
+.divDaPalestra{
+    display: flex;
+}
+
+.t_palestra{
+    text-align: center;
+    color: aliceblue;
+}
+
+.texto_palestra{
+    margin-top: 70px;
+}
+
+.video{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.livros{
+    display: flex;
+}
+
+.img_livros{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.texto_livro{
+    margin-top: 100px;
+    float:center;
+}
+
+.fundo_curiosidade{
+    margin-top: 30px;
+    opacity: 80%;
+    background-color: rgb(81, 81, 81);
+    width: 900px;
+    height: auto;
+    border-radius: 40px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#img_curiosidade1{
+    height: 200px;
+    width: 200px;
+    border-radius: 4%;
+    margin-bottom: 10px;
+}
+
+
+.curiosidade_dois{
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    margin-left: 10px;
+    display: flex;
+    border-box;
+}

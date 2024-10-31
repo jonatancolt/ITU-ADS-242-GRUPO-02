@@ -1,16 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .error {
     color: red;
     text-align: center;
 }
 
 
+.mude_mente{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(255, 255, 255, 0.6),
+                 0 0 30px rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.mude_vida{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.6),
+                 0 0 20px rgba(255, 0, 0, 0.4);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    
+}
+
+
 .container {
-margin-top: 150px;
-margin-left: 500px;
+margin-top: 50px;
+margin-left: 400px;
 margin-right: 500px;
 border-radius: 20px;
 background-color: rgba(5, 5, 5, 0.6);
-
+width: 450px;
 
 }
 
