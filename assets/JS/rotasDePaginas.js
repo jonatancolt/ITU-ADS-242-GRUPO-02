@@ -7,8 +7,5 @@ function goToPage(emotion) {
     } else if (emotion === 'raiva') {
         window.location.href = './assets/pagesHome/raiva.html';
     }
-    else if (emotion === 'ansiedade') {
-        window.location.href = './assets/pagesHome/ansiedade.html';
-    }
 }
 

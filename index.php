@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // Verificar se a senha está correta
         if (password_verify($senhaLogin, $usuario['senha'])) {
             // Login bem-sucedido, redirecionar para home.php
-            header("Location: index.html");
+            header("Location: home.php");
             exit();
         } else {
             $erroSenhaLogin = "Senha incorreta.";

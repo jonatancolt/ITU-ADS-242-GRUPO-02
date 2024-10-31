@@ -1,81 +1,77 @@
-.error {
-    color: red;
-    text-align: center;
-}
+
 
 
 .container {
-margin-top: 150px;
-margin-left: 500px;
-margin-right: 500px;
-border-radius: 20px;
-background-color: rgba(5, 5, 5, 0.6);
-
-
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
 }
-
+    
 
 /*estilos dos inputs e formulário*/
 
-#formLogin{
-text-align: center;
-font-size: 40px;
-align-items: center;
-color: white;
+ #formLogin{
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    color: white;
 }
 
 .btnEsqueciMinhaSenha, .btnCriarConta{
-color: yellow;
-background-color: rgba(0, 0, 0, 0.3);
-border: none;
-border-radius: 10px;
-cursor: pointer;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .btnEsqueciMinhaSenha:hover, .btnCriarConta:hover{
-background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 #loginRegistro, #senhaRegistro, #emailLogin, #senhaLogin{
-background: rgba(255, 255, 255, 0.2);
-height: 40px;
-line-height: 40px;
-border-radius: 20px;
-padding: 0px 20px;
-border: none;
-margin-bottom: 20px;
-width: 300px;}
-
-#loginRegistro::placeholder, #senhaRegistro::placeholder, #emailLogin::placeholder, #senhaLogin::placeholder{
-color: #999;
-text-align: center;
-
-    }
+    background: rgba(255, 255, 255, 0.2);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    width: 300px;}
+    
+    #loginRegistro::placeholder, #senhaRegistro::placeholder, #emailLogin::placeholder, #senhaLogin::placeholder{
+        color: #999;
+        text-align: center;
+        
+            }
 
 .btnLogin{
-font-size: 30px;
-border-radius: 10px;
-border: none;
-background-color: #02f20e;
-color: white;
-width: 200px;
-text-align: center;
-align-items: center;
-padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .btnLogin:hover{
 
-color: white;
-background-color: blue;
-cursor: pointer;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
 }
 
 #erroSenhaRegistro, #erroSenhaLogin{
-font-size: 20px;
+    font-size: 20px;
 }
 
 
 body {
 
-background-image: url('../images/back.jpeg');
+    background-image: url('../images/back.jpeg');
 }
