@@ -1,0 +1,12 @@
+body{
+    background-image: url('../images/fundoQuiz.png');
+}
+
+
+
+.quiz{
+    height: 50%;
+    width: 50%;
+    margin-left: 325px;
+}
+
