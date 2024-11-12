@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    background-image: url('../images/brain2.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    
+    background-color: rgba(5, 5, 5, 0.6);}
+#username, #email, #password{
+
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    width: 300px;
+}
+#forms{
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    color: white;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+#voltarLogin{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#voltarLogin:hover{
+    background-color: #0056b3;
+}

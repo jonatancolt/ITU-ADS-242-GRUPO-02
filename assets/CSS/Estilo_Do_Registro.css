@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/brain.jpg');
+
+}
+
+.mude_mente{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(255, 255, 255, 0.6),
+                 0 0 30px rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.mude_vida{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.6),
+                 0 0 20px rgba(255, 0, 0, 0.4);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    
+}
+
+.container {
+        margin-top: 50px;
+        margin-left: 450px;
+        margin-right: 500px;
+        border-radius: 20px;
+        background-color: rgba(5, 5, 5, 0.6);
+        width: 400px;
+        
+}
+#username, #email, #password{
+    background: rgba(19, 19, 19, 0.2);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    width: 300px;
+}
+#forms{
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    color: rgb(247, 247, 250);
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"]
+{
+background: rgba(255, 255, 255, 0.2);
+height: 40px;
+line-height: 40px;
+border-radius: 20px;
+padding: 0px 20px;
+border: none;
+margin-bottom: 20px;
+width: 300px;}
+
+
+
+button {
+    padding: 10px;
+    background-color: #101111;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0a0a0a;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+#voltarLogin{
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 10px;
+    background-color: #02f20e;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+#voltarLogin:hover{
+    background-color: #0056b3;
+}

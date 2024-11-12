@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../images/m.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#fundo {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 90%;
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    position: relative;
+    margin: 10px auto; /* Centraliza a div de fundo na página */
+    border-radius: 10px;
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+.img {
+    width: 100%; /* Para que a imagem não exceda a largura da div */
+    border-radius: 10px;
+    margin: 10px 0; /* Remove o espaço superior */
+}
+
+.profissional {
+    max-width: 400px; /* Define a largura máxima para alinhar as divs */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo para melhor visualização */
+    padding: 10px; /* Adiciona espaço interno */
+    margin: 10px; /* Espaço entre as divs */
+}
+
+.informaçoes_profissional {
+    margin-left: 10px;
+}
+
+#opcoes {
+    position: relative;
+    right: -250px;
+    top: -20px;
+}
+
+.btn_confirmar {
+    background-color: #38b6ff;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.btn_confirmar:hover{
+    background-color: gray;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+
+#paragrafo_confirmar {
+    position: relative;
+    bottom: -15px;
+}
+
+.container_profissional {
+    display: flex;
+    flex-direction: row; /* Alinha as divs em uma linha */
+    justify-content: space-around; /* Distribui o espaço entre as divs */
+    flex-wrap: wrap; /* Permite que as divs quebrem para a linha seguinte se necessário */
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
