@@ -11,9 +11,38 @@ body {
     
 }
 
+ul{
+    color: aliceblue;
+    list-style-type:none;
+    overflow: hidden;
+    top: 0;
+}
+
+
+
+li a{   
+    color: aliceblue;
+}
+
+li:hover{
+    color: #7B68EE;
+    transform: scale(1.1);
+}
+
+
+.myNav{
+    cursor: pointer;
+    background-color: #444;
+    letter-spacing: 1px;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+  
+}
 
 /*alinha os itens da classe abaixo(div principal)*/
 .container {
+    margin-top: 20px;
     margin-right: 600px;
     margin-left: 50px;
     align-items: center;
