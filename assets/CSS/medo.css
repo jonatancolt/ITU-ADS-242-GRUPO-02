@@ -7,15 +7,46 @@
 
 body {
     /*cor de fundo da pággina*/
-    background-image: linear-gradient(#9932CC, #800080);
+    background-image: linear-gradient(#7B68EE,#9370DB);
+    
+}
+
+ul{
+    color: aliceblue;
+    list-style-type:none;
+    overflow: hidden;
+    top: 0;
 }
 
 
+
+li a{   
+    color: aliceblue;
+}
+
+li:hover{
+    color: #7B68EE;
+    transform: scale(1.1);
+}
+
+
+.myNav{
+    cursor: pointer;
+    background-color: #444;
+    letter-spacing: 1px;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+  
+}
+
 /*alinha os itens da classe abaixo(div principal)*/
 .container {
+    margin-top: 20px;
     margin-right: 600px;
     margin-left: 50px;
     align-items: center;
+    font-size: 1.2rem;
 }
 
 /*estiliza a principal div do site*/
@@ -183,6 +214,7 @@ body {
     margin: 20px;
     opacity: 70%;
     border-radius: 30px;
+    color: aliceblue;
 }
 
 
@@ -202,6 +234,7 @@ body {
     margin: 20px;
     opacity: 70%;
     border-radius: 30px;
+    color: aliceblue;
 }
 
 
@@ -221,6 +254,7 @@ body {
     margin: 20px;
     opacity: 70%;
     border-radius: 30px;
+    color: aliceblue;
 }
 
 
@@ -280,6 +314,7 @@ body {
 }
 
 .texto_livro{
+    color: aliceblue;
     margin-top: 100px;
     float:center;
 }
@@ -295,19 +330,64 @@ body {
     margin-left: 150px;
 }
 
+.curiosidade1{
+    display: flex;
+}
+
 #img_curiosidade1{
     height: 200px;
     width: 200px;
     border-radius: 4%;
     margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 
-.curiosidade_dois{
+.texto_c1{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: justify;
+    color: aliceblue;
+}
+
+
+.curiosidade2{
+    display: flex;
+}
+
+#img_curiosidade2{
     width: auto;
     height: auto;
     border-radius: 40px;
     margin-left: 10px;
-    display: flex;
-    border-box;
+    margin-top: 20px;
 }
+
+
+.texto_c2{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: justify;
+    color: aliceblue;
+}
+
+
+
+.quiz{
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #02f20e;
+    color: white;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 500px;
+
+    margin-top: 10px;
+    }
+
